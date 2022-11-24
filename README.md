@@ -1,17 +1,37 @@
-# NestJS production ready boilerplate project
+<!--lint disable awesome-heading awesome-github awesome-toc double-link -->
 
-### Development
+<h1 align='center'>NestJS production ready boilerplate project</h1>
+
+<p align='center'>
+NestJS production grade starter project 
+</p>
+
+## Scripts
+
+<br>
+
+- `Development`
+
 ```
-yarn dev
+npm run dev
 ```
 
+<br>
 
-### Build for production
+- `Production build`
+
 ```
-yarn build
+npm build
 ```
 
-### Production start
 ```
-yarn start
+npm run export
+```
+
+<br>
+
+- `Production start`
+
+```
+npm run start
 ```
