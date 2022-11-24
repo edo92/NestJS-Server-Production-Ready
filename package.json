@@ -6,7 +6,10 @@
       "build": "nest build",
       "lint": "eslint src/**/*.ts",
       "lint:fix": "eslint --fix 'src/**/*.{js,jsx,ts,tsx,json}'",
-      "test:e2e": "jest --config ./e2e/jest-e2e.json"
+      "test:e2e": "jest --config ./e2e/jest-e2e.json",
+      "docker:build": "sh ./scripts/build_tag.sh",
+      "docker:run": "docker run -p 3001:3001 backend",
+      "docker:prune": "sh ./scripts/prune.sh"
    },
    "devDependencies": {
       "@nestjs/cli": "^9.1.5",
