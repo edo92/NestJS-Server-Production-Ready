@@ -1,12 +1,12 @@
-import * as request from "supertest";
-import { INestApplication } from "@nestjs/common";
-import { Test, TestingModule } from "@nestjs/testing";
+import * as request from 'supertest';
+import { INestApplication } from '@nestjs/common';
+import { Test, TestingModule } from '@nestjs/testing';
 
-import { AppModule } from "../src/app.module";
-import { ApiService } from "../src/modules/api/api.service";
-import { ApiController } from "../src/modules/api/api.controller";
+import { AppModule } from '../src/modules/app/app.module';
+import { ApiService } from '../src/modules/api/api.service';
+import { ApiController } from '../src/modules/api/api.controller';
 
-describe("Api Module", () => {
+describe('Api Module', () => {
   let moduleRef: TestingModule;
   let app: INestApplication;
   let apiService: ApiService;
@@ -27,16 +27,16 @@ describe("Api Module", () => {
   it(`/GET api`, async () => {
     const result = await apiService.getData();
     return request(app.getHttpServer())
-      .get("/endpoint/get")
+      .get('/endpoint/get')
       .expect(200)
       .expect(result);
   });
 
-  it("/POST api", async () => {
-    const result = await apiService.createData({ data: "test" });
+  it('/POST api', async () => {
+    const result = await apiService.createData({ data: 'test' });
     return request(app.getHttpServer())
-      .post("/endpoint/create")
-      .send({ data: "test" })
+      .post('/endpoint/create')
+      .send({ data: 'test' })
       .expect(201)
       .expect(result);
   });

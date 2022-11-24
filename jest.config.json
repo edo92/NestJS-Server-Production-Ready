@@ -1,9 +1,0 @@
-{
-  "moduleFileExtensions": ["ts", "js", "json"],
-  "transform": {
-    "^.+\\.tsx?$": ["ts-jest", { "tsconfig": "./tsconfig.spec.json" }]
-  },
-  "testRegex": "/src/.*\\.spec\\.ts$",
-  "collectCoverageFrom": ["src/**/*.{js,jsx,tsx,ts}", "!**/node_modules/**"],
-  "coverageReporters": ["json", "lcov"]
-}
