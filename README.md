@@ -1,17 +1,45 @@
-# NestJS production ready boilerplate project
+<!--lint disable awesome-heading awesome-github awesome-toc double-link -->
 
-### Development
-```
-yarn dev
-```
+<h1 align='center'>NestJS production ready boilerplate project</h1>
+
+<p align='center'>
+NestJS production grade starter project 
+</p>
+
+<br>
 
 
-### Build for production
+<p align="center">
+  <img src="https://raw.githubusercontent.com/edo92/NestJS-Server-Production-Ready/assets/assets/nestjs-logo.png?token=GHSAT0AAAAAAB3PQF5NQRAPJ2GUW2JS2G4SY37MWFQ" alt="nestjs logo"/>
+</p>
+
+
+## Scripts
+
+<br>
+
+- `Development`
+
 ```
-yarn build
+npm run dev
 ```
 
-### Production start
+<br>
+
+- `Production build`
+
 ```
-yarn start
+npm build
+```
+
+```
+npm run export
+```
+
+<br>
+
+- `Production start`
+
+```
+npm run start
 ```
