@@ -2,7 +2,7 @@ import * as request from 'supertest';
 import { INestApplication } from '@nestjs/common';
 import { Test, TestingModule } from '@nestjs/testing';
 
-import { AppModule } from '../src/modules/app/app.module';
+import { AppModule } from '../src/modules/app.module';
 import { ApiService } from '../src/modules/api/api.service';
 import { ApiController } from '../src/modules/api/api.controller';
 
