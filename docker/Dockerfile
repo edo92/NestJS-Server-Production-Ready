@@ -3,7 +3,9 @@ FROM node:19.1-alpine as builder
 WORKDIR /app
 
 COPY . ./
+
 RUN npm install --loglevel=error
+RUN npm run prebuild
 RUN npm run build
 
 
