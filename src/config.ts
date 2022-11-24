@@ -1,4 +1,4 @@
 export default {
-   cors: ['*'],
-   prefix: 'api',
+  cors: ['*'],
+  prefix: 'api',
 };

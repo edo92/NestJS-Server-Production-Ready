@@ -1,5 +1,5 @@
-import { Injectable } from "@nestjs/common";
-import { RequestDto, ResponseDto } from "./api.dto";
+import { Injectable } from '@nestjs/common';
+import { RequestDto, ResponseDto } from './api.dto';
 
 @Injectable()
 export class ApiService {
@@ -8,6 +8,6 @@ export class ApiService {
   }
 
   public async getData(): Promise<ResponseDto> {
-    return { data: "Hello World!" };
+    return { data: 'Hello World!' };
   }
 }
