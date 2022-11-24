@@ -10,7 +10,7 @@ NestJS production grade starter project
 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/edo92/NestJS-Server-Production-Ready/assets/assets/nestjs-logo.png?token=GHSAT0AAAAAAB3PQF5NQRAPJ2GUW2JS2G4SY37MWFQ" alt="nestjs logo"/>
+  <img src="https://media.githubusercontent.com/media/edo92/NestJS-Server-Production-Ready/assets/assets/nestjs-logo.png?token=AH5SSOLVXOUTVT72XOGR2TLDP6ECM" alt="nestjs logo"/>
 </p>
 
 
